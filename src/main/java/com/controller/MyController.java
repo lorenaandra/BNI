@@ -1,4 +1,4 @@
-package com.bni.aws;
+package com.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,8 +11,6 @@ public class MyController {
             return ResponseEntity.ok("spring boot app runing pn aws ec2 instance");
         }
 
-//    public String home() {
-//        return "Hello from aws ec2";
-//    }
+
 
 }
